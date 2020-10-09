@@ -21,7 +21,7 @@ NodeCmd.get(
       // 下载成功调用
       spinner.succeed();
 
-      console.log(symbols.success, chalk.green('发布成功,前往查看:https://178518.github.io/webpack-weapp-assets'));
+      console.log(symbols.success, chalk.green('发布成功,前往查看:https://178518.github.io/weapp-assets'));
     } else {
       console.log(symbols.error, chalk.red(err));
     }
