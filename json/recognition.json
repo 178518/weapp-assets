@@ -1,0 +1,142 @@
+{
+  "orc": [
+    {
+      "childrens": [
+        {
+          "ocrType": "accurate_basic",
+          "icon": "text-width",
+          "color": "#1890ff",
+          "subject": "通用文字识别"
+        },
+        {
+          "ocrType": "idcard",
+          "icon": "address-card",
+          "color": "#eb2f96",
+          "subject": "身份证识别"
+        }
+      ]
+    },
+    {
+      "childrens": [
+        {
+          "ocrType": "vat_invoice",
+          "icon": "file-invoice-dollar",
+          "color": "#722ed1",
+          "subject": "增值税发票识别"
+        },
+        {
+          "ocrType": "license_plate",
+          "icon": "car",
+          "color": "#2f54eb",
+          "subject": "车牌识别"
+        }
+      ]
+    },
+    {
+      "childrens": [
+        {
+          "ocrType": "bankcard",
+          "icon": "credit-card",
+          "color": "#cf1322",
+          "subject": "银行卡识别"
+        },
+        {
+          "ocrType": "business_license",
+          "icon": "file-invoice",
+          "color": "#eb2f96",
+          "subject": "营业执照识别"
+        }
+      ]
+    }
+  ],
+  "image": [
+    {
+      "childrens": [
+        {
+          "ocrType": "advanced_general",
+          "icon": "object-group",
+          "color": "#a0d911",
+          "subject": "通用物体识别"
+        },
+        {
+          "ocrType": "animal",
+          "icon": "cat",
+          "color": "#d48806",
+          "subject": "动物识别"
+        }
+      ]
+    },
+    {
+      "childrens": [
+        {
+          "ocrType": "plant",
+          "icon": "tree",
+          "color": "#13c2c2",
+          "subject": "植物识别"
+        },
+        {
+          "ocrType": "classify/ingredient",
+          "icon": "apple-alt",
+          "color": "#fa541c",
+          "subject": "果蔬识别"
+        }
+      ]
+    },
+    {
+      "childrens": [
+        {
+          "ocrType": "dish",
+          "icon": "hamburger",
+          "color": "#cf1322",
+          "subject": "菜品识别"
+        },
+        {
+          "ocrType": "landmark",
+          "icon": "landmark",
+          "color": "#eb2f96",
+          "subject": "地标识别"
+        }
+      ]
+    },
+    {
+      "childrens": [
+        {
+          "ocrType": "redwine",
+          "icon": "wine-bottle",
+          "color": "#8A2BE2",
+          "subject": "红酒识别"
+        },
+        {
+          "ocrType": "currency",
+          "icon": "money-bill-alt",
+          "color": "#808080",
+          "subject": "货币识别"
+        }
+      ]
+    }
+  ],
+  "face": [
+    {
+      "childrens": [
+        {
+          "ocrType": "face",
+          "icon": "meh",
+          "color": "#fa541c",
+          "subject": "人脸检测与属性分析"
+        }
+      ]
+    }
+  ],
+  "body": [
+    {
+      "childrens": [
+        {
+          "ocrType": "body_num",
+          "icon": "users",
+          "color": "#1d39c4",
+          "subject": "人流量统计"
+        }
+      ]
+    }
+  ]
+}
