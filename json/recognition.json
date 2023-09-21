@@ -121,12 +121,6 @@
           "icon": "passport",
           "color": "#8A2BE2",
           "subject": "户口本识别"
-        },
-        {
-          "ocrType": "idcard",
-          "icon": "id-card",
-          "color": "#808080",
-          "subject": "身份证识别"
         }
       ]
     }
